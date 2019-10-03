@@ -1,0 +1,16 @@
+----------------------------------------------------------------
+Wed Oct 02 11:24:29 ICT 2019:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-016d-8ab6-56a4-00000a9b8170 
+on database directory memory:D:\ResearchAndDevelopment\Java\restwebservice\testdb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@78308db1 
+Loaded from file:/C:/Users/saivi/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=JetBrains s.r.o
+java.runtime.version=11.0.3+12-b304.39
+user.dir=D:\ResearchAndDevelopment\Java\restwebservice
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Wed Oct 02 17:06:12 ICT 2019:
+Shutting down instance a816c00e-016d-8ab6-56a4-00000a9b8170 on database directory memory:D:\ResearchAndDevelopment\Java\restwebservice\testdb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@78308db1 
