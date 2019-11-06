@@ -24,19 +24,19 @@ public class CourseController {
         return courseService.getCourse(id);
     }
 
-    @RequestMapping(method = RequestMethod.POST, value = "/topics/{topicID}/courses")
+    @RequestMapping(method = RequestMethod.POST, value = "/topics/{topicId}/courses")
     public void addCourse(@RequestBody Course course, @PathVariable String topicId) {
-        course.setTopic(new Topic(topicId, "", ""));
+        course.setTopic(new Topic(topicId, "data science", "data science"));
         courseService.addCourse(course);
     }
 
-    @RequestMapping(method = RequestMethod.PUT, value = "/topics/{topicID}/courses/{id}")
+    @RequestMapping(method = RequestMethod.PUT, value = "/topics/{topicId}/courses/{id}")
     public void update(@RequestBody Course course, @PathVariable String topicId) {
         course.setTopic(new Topic(topicId, "", ""));
         courseService.updateCourse(course);
     }
 
-    @RequestMapping(method = RequestMethod.DELETE, value = "/topics/{topicID}/courses/{id}")
+    @RequestMapping(method = RequestMethod.DELETE, value = "/topics/{topicId}/courses/{id}")
     public void destroy(@PathVariable String topicId) {
         courseService.deleteCourse(topicId);
     }
