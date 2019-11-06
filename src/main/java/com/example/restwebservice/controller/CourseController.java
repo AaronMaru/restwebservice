@@ -16,10 +16,10 @@ public class CourseController {
 
     @RequestMapping("/topics/{id}/courses")
     public List<Course> index(@PathVariable String id) {
-        return courseService.getAll();
+        return courseService.getAll(id);
     }
 
-    @RequestMapping("/topics/{id}")
+    @RequestMapping("/topics/{topicId}/course/{id}")
     public Course show(@PathVariable String id) {
         return courseService.getCourse(id);
     }
